@@ -1,0 +1,8 @@
+.odd-number{
+background-color: rgb(250, 180, 190);
+font-size: 32px;
+}
+
+.odd-number.but-cooler{
+font-size: 64px;
+}
