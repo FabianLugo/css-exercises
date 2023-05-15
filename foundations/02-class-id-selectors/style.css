@@ -1,11 +1,14 @@
 .odd-number{
 background-color: rgb(250, 180, 190);
-font-size: 24px;
+font-family: Verdana,"DejaVu Sans", sans-serif;
+/*font-size: 12px;*/
 
 }
 
-.odd-number.but-cooler{
-font-size: 48px;
+/* removed .odd-number.but-bigger , learned i can just use the class .but-bigger*/
+/*no need to use chaining selector*/
+.but-bigger {
+font-size: 24px;
 }
 
 #number2{
@@ -15,10 +18,7 @@ font-size: 36px;
 
 #number4{
 background-color: #00ff0080;
-font-size: 32px;
 font-weight: bold;                                  
 }
 
-.odd-number, #number2, #number4{
-font-family: Verdana,"DejaVu Sans", sans-serif;
-}
+
